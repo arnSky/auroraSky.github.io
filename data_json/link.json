@@ -1,0 +1,13 @@
+{
+  "nav_root" : [
+    {
+      "label" : "Home",
+      "action" : "load_content",
+      "action_data" : {
+        "content_url" : "assets"
+        ---
+      }
+    }
+
+  ]
+}

@@ -1,3 +1,4 @@
 /**
- * Created by james on 22/3/15.
+ * Copyright © 2014-15
+ * by "auroraSky"
  */

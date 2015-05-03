@@ -1,3 +1,43 @@
-body{
+/**
+ * Copyright © 2014-15
+ * by "auroraSky"
+*/
 
+body{
+    background-image: url("../assets/svg/bg_d_1.svg");
+    background-repeat: repeat;
+}
+
+div.main{
+    background: aliceblue ;
+    margin: auto;
+    width: 70%;
+    min-width: 800px;
+    padding: 10px;
+}
+
+div.navigation
+{
+    background: deeppink ;
+    margin: auto;
+    width: auto;
+    min-width: 768px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+div.navigated_content
+{
+    background: floralwhite ;
+    margin: auto;
+    width: auto;
+    min-width: 768px;
+    min-height: 768px;
+    padding: 10px;
+
+    white-space: pre-wrap;      /* Webkit */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
 }

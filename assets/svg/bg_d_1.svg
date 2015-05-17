@@ -28,14 +28,28 @@
      id="namedview9"
      showgrid="false"
      inkscape:zoom="3.6875"
-     inkscape:cx="32"
+     inkscape:cx="-11.525424"
      inkscape:cy="32"
      inkscape:window-x="10"
      inkscape:window-y="24"
      inkscape:window-maximized="0"
-     inkscape:current-layer="SVGRoot" />
+     inkscape:current-layer="layer5" />
   <defs
-     id="defs4191" />
+     id="defs4191">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4452"
+       x="-0.6"
+       width="2.2"
+       y="-0.6"
+       height="2.2">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5"
+         id="feGaussianBlur4454" />
+    </filter>
+  </defs>
   <metadata
      id="metadata4194">
     <rdf:RDF>
@@ -49,24 +63,49 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1">
-    <rect
-       rx="2"
-       ry="2"
-       y="0"
-       x="0"
-       height="64"
-       width="64"
-       id="rect4748"
-       style="opacity:1;fill:#3366ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Base Square'"
+     style="display:inline">
+    <g
+       id="layer1">
+      <rect
+         rx="2"
+         ry="2"
+         y="0"
+         x="0"
+         height="64"
+         width="64"
+         id="rect4748"
+         style="opacity:1;fill:#ff91cc;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
   </g>
   <g
-     id="layer3">
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Center Circle Shadow"
+     sodipodi:insensitive="true"
+     style="display:inline">
     <circle
-       r="5"
-       cy="32"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4452)"
+       id="path4150"
        cx="32"
-       id="path4756"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       cy="32"
+       r="10" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Center Circle"
+     sodipodi:insensitive="true">
+    <g
+       id="layer3">
+      <circle
+         r="5"
+         cy="32"
+         cx="32"
+         id="path4756"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
   </g>
 </svg>

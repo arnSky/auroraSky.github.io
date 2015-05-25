@@ -4,9 +4,9 @@
 */
 
 body{
-    /*background-image: url("../assets/svg/bg_d_1.svg");*/
+    /*background-image: url("../assets/svg/bg_d_2.svg");*/
     background: #fffa92;
-    background-repeat: repeat;
+    /*background-repeat: repeat;*/
     font-size: 100%;
 }
 
@@ -69,6 +69,9 @@ div.navigation a:hover
 div.navigated_content
 {
     background: floralwhite ;
+
+    background-image: url("../assets/svg/bg_d_2.svg");
+    background-repeat: repeat;
     margin: auto;
     width: auto;
     min-width: 768px;

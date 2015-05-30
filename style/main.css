@@ -8,85 +8,72 @@ body{
     background: #fffa92;
     /*background-repeat: repeat;*/
     font-size: 100%;
-}
-
-div.main{
-    background: deeppink ;
-    margin: auto;
-    width: 100%;
-    max-width: 1366px;
-
-    overflow: hidden;
-}
-
-div.navigation
-{
-    float: left;
-    background: #FF4081 ;
-    margin: auto;
-    width: 100%;
-    min-width: 768px;
-    padding: 10px;
-    margin: 0px;
-    color: aliceblue;
-}
-
-div.navigation ul
-{
-    list-style-type: none;
-    overflow: hidden;
-    margin: auto;
-    margin-left: 0em;
-    margin-right: 0em;
-}
-
-div.navigation li
-{
-    
-    float: left;
-    font-size: 2em;
-    padding: 0em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-
-div.navigation a
-{
-    background: #673AB7;
-
-    color: aliceblue;
-    display: block;
-    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    padding: 12px;
 }
-div.navigation a:hover
-{
-    background: #F44336;
-    color: aliceblue;
+/*-------------- header ------------------------*/
+div.header{
+    background: #ffffff;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+
 }
-
-div.navigated_content
-{
-    background: floralwhite ;
-
-    background-image: url("../assets/svg/bg_d_2.svg");
-    background-repeat: repeat;
+div.header ul{
+    list-style-type: none;
     margin: auto;
-    width: auto;
-    min-width: 768px;
-    min-height: 768px;
-    padding: 10px;
-
-    white-space: pre-wrap;      /* Webkit */
-    white-space: -moz-pre-wrap; /* Firefox */
-    white-space: -pre-wrap;     /* Opera <7 */
-    white-space: -o-pre-wrap;   /* Opera 7 */
-    word-wrap: break-word;      /* IE */
+    padding: 0px;
 }
+div.header li{
+    float: left;
+}
+    /*~~~~~~~~~~~~~~ banner ~~~~~~~~~~~~~~~~~~~*/
+
+    .banner{
+        background-color: white;
+        color: #005eff;
+        font-size: 2.5em;
+        margin: auto;
+        padding: 2px;
+        text-align: center;
+    }
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~*/
+    .navigation{
+        background: #ffffff;
+        overflow: hidden;
+    }
+    .navigation li{
+        padding: 2px;
+    }
+    .navigation a{
+        background: #025fff;
+        color: floralwhite;;
+        text-decoration: none;
+        font-size: 2.5em;
+    }
+    .navigation a:hover{
+        background: #7f5ce0;
+        color: #fff;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*---------------------------------------------*/
+
+/*-------------- content ------------------------*/
+div.content{
+    background: rgba(255, 255, 255, 1);
+    margin: auto;
+    min-height: 400px;
+}
+div.content .content_instance{
+    background: #daffde;
+    width: 80%;
+    margin: auto;
+}
+/*---------------------------------------------*/
 
 div.footer
 {
+    background: rgba(0, 94, 255, 1);
     color: aliceblue;
     margin: auto;
     font-family: 'Open Sans', sans-serif;

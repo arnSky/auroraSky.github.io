@@ -10,33 +10,64 @@
         <link rel="stylesheet" href="style/main.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <meta charset="utf-8" />
+        <script src="./js/ui/visibility_control.js">
+
+        </script>
 	</head>
 	<body>
 		<div class="main">
             <div class="header">
-                <ul>
-                    <li>
-                        <div class="banner">
-                            <span>The GwiBo</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="navigation">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
+                <a class="navigation_toggle" onclick="toggleVisibilityById('id_nav')" href="#">&equiv;</a>
+
+                <div class="banner">
+                  <span id="title_the">the</span><span id="title_gwibo">GwiBo</span>
+                </div>
             </div>
 
-            <div class="content">
-                <div class="content_instance">
-                    When one remembers surrender and chaos, one is able to witness samadhi.
-                    Ho-ho-ho! death of greed.
-                    Cold histories lead to the energy.
+            <nav>
+                <div class="navigation" id="id_nav">
+                    <a class="navigation_toggle" onclick="toggleVisibilityById('id_nav')" href="#">&equiv;</a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
                 </div>
+            </nav>
+
+            <div class="content">
+                <div class="content_instance_list">
+                    <div class="content_instance">
+                        When one remembers surrender and chaos, one is able to witness samadhi.
+                        Ho-ho-ho! death of greed.
+                        Cold histories lead to the energy.
+                    </div>
+                    <div class="content_instance">
+                        When one remembers surrender and chaos, one is able to witness samadhi.
+                        Ho-ho-ho! death of greed.
+                        Cold histories lead to the energy.
+                    </div>
+                    <div class="content_instance">
+                        When one remembers surrender and chaos, one is able to witness samadhi.
+                        Ho-ho-ho! death of greed.
+                        Cold histories lead to the energy.
+                    </div>
+                    <div class="content_instance">
+                        When one remembers surrender and chaos, one is able to witness samadhi.
+                        Ho-ho-ho! death of greed.
+                        Cold histories lead to the energy.
+                    </div>
+                    <div class="content_instance">
+                        When one remembers surrender and chaos, one is able to witness samadhi.
+                        Ho-ho-ho! death of greed.
+                        Cold histories lead to the energy.
+                    </div>
+                    <div class="content_instance">
+                        When one remembers surrender and chaos, one is able to witness samadhi.
+                        Ho-ho-ho! death of greed.
+                        Cold histories lead to the energy.
+                    </div>
+                </div>
+
             </div>
             <div class="footer">
                 <span>Copyright &COPY; 2014-15 by GwiBo / auroraSky</span>

@@ -9,48 +9,131 @@ body{
     /*background-repeat: repeat;*/
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    margin: 0em;
 }
-/*-------------- header ------------------------*/
-div.header{
-    background: #ffffff;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
+/*-------------- main container -----------------*/
+.main{
 
 }
-div.header ul{
-    list-style-type: none;
-    margin: auto;
-    padding: 0px;
+
+/*-------------- header ------------------------*/
+div.header{
+    background-color: cornsilk;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+
 }
-div.header li{
-    float: left;
-}
+
+    .header a{
+        text-decoration: none;
+        float: left;
+        height: 100%;
+        font-size: 2.5em;
+    }
+    .header a.navigation_toggle{
+        background-color: cornflowerblue;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        color: white;
+    }
+    .header a.navigation_toggle:hover{
+        background-color: azure;
+        color: coral;
+    }
+    .header a.navigation_toggle:active{
+        background-color: greenyellow;
+        color: black;
+    }
+
     /*~~~~~~~~~~~~~~ banner ~~~~~~~~~~~~~~~~~~~*/
 
     .banner{
-        background-color: white;
+
         color: #005eff;
         font-size: 2.5em;
-        margin: auto;
+        margin-right: 10%;
         padding: 2px;
         text-align: center;
+        float:right;
     }
+    .banner span#title_the{
+        background-color: white;
+        color: #005eff;
+        margin: auto;
+        padding-left: 0.5em;
+        padding-right: 0.25em;
+        text-align: center;
+    }
+    .banner span#title_gwibo{
+        background-color: #005eff;
+        color: white;
+        margin: auto;
+        padding-left: 0.25em;
+        padding-right: 0.5em;
+        text-align: center;
+    }
+
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /*~~~~~~~~~~~~~ navigation ~~~~~~~~~~~~~~~~*/
+
+        /*~~~~~~~~~~~~~~ navigation show hide button ~~~~~~~~~~~~*/
+        .navigation a{
+            text-decoration: none;
+            float: left;
+            height: 100%;
+            font-size: 2.5em;
+        }
+        .navigation a.navigation_toggle{
+            background-color: cornflowerblue;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            color: white;
+        }
+        .navigation a.navigation_toggle:hover{
+            background-color: azure;
+            color: coral;
+        }
+        .navigation a.navigation_toggle:active{
+            background-color: greenyellow;
+            color: black;
+        }
+        /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
     .navigation{
-        background: #ffffff;
+
+        background: #f1f2f3;
         overflow: hidden;
+        margin: auto;
+
+        float: left;
+        position:absolute;
+        top: 0;
+        left: 0;
+
+        width: auto;
+        height: inherit;
+    }
+    .navigation ul{
+        list-style-type: none;
+        margin-left: 0em;
+        padding-left: 0em;
+        padding-right: 0em;
+
     }
     .navigation li{
-        padding: 2px;
+        float: none;
     }
-    .navigation a{
+    .navigation li a{
         background: #025fff;
         color: floralwhite;;
         text-decoration: none;
         font-size: 2.5em;
+
+        padding: 0.5em;
+        margin-top: 0.5em;
     }
-    .navigation a:hover{
+    .navigation li a:hover{
         background: #7f5ce0;
         color: #fff;
     }
@@ -59,15 +142,28 @@ div.header li{
 /*---------------------------------------------*/
 
 /*-------------- content ------------------------*/
-div.content{
-    background: rgba(255, 255, 255, 1);
+div .content{
+    background-color: white;
     margin: auto;
     min-height: 400px;
+    max-width: 60em;
+    padding: 1em;
 }
-div.content .content_instance{
-    background: #daffde;
-    width: 80%;
+div .content .content_instance_list{
+    background-color:papayawhip;
     margin: auto;
+    width: 100%;
+    max-width: 60em;
+    overflow: hidden;
+}
+
+div .content .content_instance{
+    background: white;
+    max-width: 50em;
+    margin: 1em;
+    padding: 0.5em;
+    max-width: 50em;
+
 }
 /*---------------------------------------------*/
 

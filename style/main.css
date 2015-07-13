@@ -22,7 +22,18 @@ div.header{
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+div.pseudo_header{
+    background-color: cornsilk;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    position: static;
+    top: 0;
+    left: 0;
 }
 
     .header a{
@@ -51,25 +62,27 @@ div.header{
     .banner{
 
         color: #005eff;
-        font-size: 2.5em;
+        font-size: 3em;
         margin-right: 10%;
         padding: 2px;
         text-align: center;
         float:right;
+
+        font-family: 'Roboto',sans-serif;
     }
-    .banner span#title_the{
+    .banner span#title_gwi{
         background-color: white;
         color: #005eff;
         margin: auto;
         padding-left: 0.5em;
-        padding-right: 0.25em;
+        padding-right: 0.2em;
         text-align: center;
     }
-    .banner span#title_gwibo{
+    .banner span#title_bo{
         background-color: #005eff;
         color: white;
         margin: auto;
-        padding-left: 0.25em;
+        padding-left: 0.2em;
         padding-right: 0.5em;
         text-align: center;
     }
@@ -102,23 +115,31 @@ div.header{
 
     .navigation{
 
-        background: #f1f2f3;
+        background-color: rgba(123,123,123,0.5);
         overflow: hidden;
         margin: auto;
 
         float: left;
-        position:absolute;
+        position:fixed;
         top: 0;
         left: 0;
 
         width: auto;
+        min-width: 6em;
         height: inherit;
     }
+
+    .navigation_block{
+
+    }
+
     .navigation ul{
         list-style-type: none;
         margin-left: 0em;
         padding-left: 0em;
         padding-right: 0em;
+
+        background-color: white;
 
     }
     .navigation li{
@@ -159,6 +180,9 @@ div .content .content_instance_list{
     width: 100%;
     max-width: 60em;
     overflow: hidden;
+
+    /*--- CSS 3 ---*/
+    border-radius: 10px;
 }
 
 div .content .content_instance{
@@ -167,6 +191,9 @@ div .content .content_instance{
     margin: 1em;
     padding: 0.5em;
     max-width: 50em;
+
+    /*--- CSS 3 ---*/
+    border-radius: 6px;
 
 }
 /*---------------------------------------------*/
